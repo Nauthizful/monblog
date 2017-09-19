@@ -14,6 +14,7 @@
                 <p>Je vous souhaite la bienvenue sur ce modeste blog.</p>
             </header>
             <div id="contenu">
+            	<?php foreach ($billets as $billet) :?>
                     <article>
                         <header>
                             <h1 class="titreBillet"><?= $billet['titre'] ?></h1>
